@@ -1,0 +1,45 @@
+[user]
+	name = Kyle Banker
+	email = kylebanker@gmail.com
+	autosetupmerge = auto
+
+[alias]
+  co = checkout
+  ci = commit -a
+  st = status -a
+  br = branch
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+	sh = !git-sh
+
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+	sh = auto
+  ui = auto
+
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+
+[push]
+  default = current
+
+[gui]
+	fontui = -family \"Bitstream Vera Sans Mono\" -size 12 -weight normal -slant roman -underline 0 -overstrike 0
+	fontdiff = -family \"Bitstream Vera Sans Mono\" -size 14 -weight normal -slant roman -underline 0 -overstrike 0
+
+[apply]
+	whitespace = nowarn

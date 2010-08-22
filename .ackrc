@@ -1,0 +1,15 @@
+--context=1
+--type-set
+scala=.scala
+--type-set
+configgy=.conf
+--type-set
+elisp=.el
+--type-set
+asciidoc=.asc
+--sort-files
+--color
+--follow
+--group
+--ignore-dir=dist
+--ignore-dir=target
